@@ -1,0 +1,48 @@
+:root{
+  --primary-color:#6f55f2;
+  --heading-color:#132742;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+section{
+  padding: 50px 0px;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+a:hover{
+  color: unset;
+}
+link{
+  text-decoration: none;
+  color: unset;
+}
+link:hover{
+  color: unset;
+}
+ul{
+  list-style: none;
+}
+.container{
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+.section_title{
+  color: var(--heading-color);
+  font-weight: 700px;
+}
+.register-btn{
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  outline: one;
+  padding: 7px 15px;
+}
